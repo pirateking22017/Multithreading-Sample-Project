@@ -50,31 +50,38 @@ This project demonstrates a multi-client server model in Java. It includes imple
 
 ### Running the Project
 #### 1. Start the Server
+- Start from the root directory 
+
 ##### For the multi-threaded server:
 ```sh
 javac multi/Server.java
-java multi.Server
+cd multi
+java Server
 ```
 ##### For the threadpool server:
 ```sh
 javac threadpool/Server.java
-java threadpool.Server
+cd threadpool
+java Server
 ```
 ##### For the single-threaded server:
 ```sh
 javac single/Server.java
-java single.Server
+cd single
+java Server
 ```
 #### 2. Run the Client
 ##### For the multi-threaded client:
 ```sh
 javac multi/Client.java
-java multi.Client
+cd multi
+java Client
 ```
 ##### For the single-threaded client:
 ```sh
 javac single/Client.java
-java single.Client
+cd single
+java Client
 ```
 ### Notes
 
